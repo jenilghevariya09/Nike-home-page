@@ -1,0 +1,829 @@
+@font-face {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  src: url(Helvetica-Neue-Font);
+}
+@font-face {
+  font-family: "Helvetica Dark",Helvetica,Arial,sans-serif;
+  src: url(Helvetica-Neue-Font);
+}
+div.nav ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(228, 228, 228);
+  }
+  
+  div.nav li {
+    float: right;
+    padding-right: 15px;
+    
+  }
+  
+  .nav #imglogo:hover{
+    filter: contrast(0%);
+    cursor: pointer;
+  }
+
+  div.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 6px;
+    text-decoration: none;
+    font-size: 12px;
+      font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
+  div.nav li a:hover {
+    color: rgb(228, 228, 228);
+  }
+  div.nav img {
+      padding-left: 4%;
+  }
+   
+  /* second nav*/
+ .nav2 #imgnikelogo:hover{
+  filter: contrast(0%);
+  cursor: pointer;
+ }
+  div.nav2 ul {
+    list-style-type: none;
+    margin: -8px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1.1%;
+    padding-top: 0.5%;
+    
+
+  }
+  
+  div.nav2 li {
+      /* float: right; */
+      display: inline-block;
+      padding: 1%;
+      margin-bottom: 0.7%;
+      
+    
+  }
+  
+  div.nav2 li  {
+    display:inline-flex;
+    color: black;
+    text-align: center;
+    padding: 0px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+      font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
+  div.nav2 li:hover {
+    
+    border-bottom: 2px solid black;
+
+    
+  }
+  div.nav2  img {
+      padding-left: 0%;
+      margin-left: 0%;
+      cursor: pointer;
+
+  }
+  div.nav2 #heart:hover {
+    
+    background-color: rgb(228, 228, 228);
+    border-radius: 15px;
+    
+    /* border: 10px solid rgb(204, 204, 204); */
+    
+  }
+
+  .nav2 #heart{
+    background-color:white;
+    border: 4px solid white;
+    border-radius: 50px;
+    margin-left: 20px;
+  }
+  .nav2 #heart:hover{
+    background-color: rgb(228, 228, 228);
+    border: 4px solid  rgb(228, 228, 228);
+    cursor: pointer;
+  }
+  .nav2 input[type=text] {
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 39px;
+    font-size: 16px;
+    background-color: rgb(241, 236, 236);
+    background-image: url('search-line.svg');
+    background-size: 25px 25px;
+    background-position: 7px 7px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  .nav2 input[type=text]:active, .nav2 input[type=text]:focus {
+align-items: center;
+outline: none;
+width: 20%;
+
+  }
+  .nav2 input[type=text]::placeholder {
+    color: rgb(204, 201, 201);
+
+  }
+  .nav2 input[type=text]:hover::placeholder {
+    color: rgb(92, 92, 92);
+
+  }
+  
+  .nav2 input:hover {
+    background-color: rgb(224, 224, 224);
+  }
+  .nav2 form {
+    padding-left: 130%;
+  }
+  
+  
+  div.nav2 img {
+    margin-bottom: -7px;
+    margin-left: 10px ;
+  
+  } 
+ 
+  
+  .nav3 ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgb(228, 228, 228);
+  }
+  .imgbuzz{
+    padding-top: 5px; 
+    margin-left:-8px;
+    cursor: pointer;
+  }
+  .imgbag {
+    cursor: pointer;
+    width:90%;
+    height:90%;
+    padding-top: 10px; padding-left: 4%; margin-top: 70px;
+  }
+
+  .nav3 li {
+    text-align: center;
+  }
+
+  .textsale {
+    text-align: center;
+    margin: 4%;
+  }
+  .textsale h5 {
+    padding-bottom: -30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    
+
+  }
+  .textsale h1 {
+  margin-bottom: -10px;
+  margin-top: -35px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 4.5vw;
+  cursor: pointer;
+  font-weight: 900;
+  transform: scale(0.7, 1.1);
+
+  }
+
+  .textsale h4 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+
+  }
+
+  .textsale button  {
+    position: relative;
+    background-color: #111;
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .textsale button:hover {
+    
+    background-color: rgb(131, 129, 129);
+
+    
+  }
+
+  .section {
+    white-space: nowrap;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+.scroll{ 
+  padding: 7px;
+  width:100%;
+  height:100%;
+  cursor: pointer;
+}
+
+.section #imgtext{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+  .section ul{
+    list-style-type: none;
+    display: inline-flex;
+  }
+   
+
+.latest #latesttext{
+  padding-top: 10px; padding-left: 3%; margin-top: 70px;
+  font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.example1 {
+  height: 800px;
+  border: 2px solid white;
+  background: url(6c577428-a968-4e31-9b45-bb9d739acb0f.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.example2 {
+  padding: 4%;
+  margin-top: 32%;
+  margin-left: 3%;
+}
+
+.example1 #button{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.example1 #button:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+
+.example1 #p{
+  
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: -35px;
+    padding-left: 2px;
+
+}
+.example1 #h4{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 900;
+  line-height: 40px;
+  transform: scale(1, 1.3);
+}
+.example1 #p2{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-left: 2px;
+    margin-top: -20px;
+}
+
+.featured2 {
+  height: 700px;
+  width:617px;
+  border: 2px solid white;
+  background: url(featured.webp);
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.featured3 {
+  height: 700px;
+  width:617px;
+  border: 2px solid white;
+  background: url(featured2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.featured {
+  padding-left: 3%; 
+}
+.featured4 {
+  display: inline-flex;
+}
+
+.featured #featuredtext{
+  padding-top: 10px; margin-top: 70px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.featured2 #p{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: -35px;
+    padding-left: 2px;
+    padding: 4%;
+    margin-top: 78%;
+    margin-left: 3%;
+}
+
+.featured2 #h4{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: -50px;
+    padding-left: 2px;
+    margin-left: 6.5%;
+}
+.featured2 #button{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 6.5%;
+  }
+
+.featured2 #button:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+
+.featured3 #button{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+
+.featured3 #button:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+.featured3 #button2{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+.featured3 #button2:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+
+.featured3 #p{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: -50px;
+    padding-left: 2px;
+    padding: 4%;
+    margin-top: 87%;
+    margin-left: 3%;
+}
+
+
+.dontmiss #dontmisstext{
+padding-top: 10px; padding-left: 3%; margin-top: 70px;
+font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.dontmiss1 {
+height: 800px;
+border: 2px solid white;
+background: url(dontmiss.webp);
+background-repeat: no-repeat;
+background-position: center;
+margin-top: -70PX;
+
+}
+
+.dontmiss2 {
+padding: 4%;
+margin-top: 32%;
+margin-left: 3%;
+}
+
+.dontmiss1 #button{
+position: relative;
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid transparent;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 30px;
+  padding: 6px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.dontmiss1 #button:hover {
+  
+background-color: rgb(187, 187, 187);
+
+}
+
+.dontmiss1 #p{
+
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 500;
+  margin-bottom: -35px;
+  padding-left: 2px;
+
+}
+.dontmiss1 #h4{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 50px;
+cursor: pointer;
+color: #FFFFFF;
+font-weight: 900;
+line-height: 40px;
+transform: scale(1, 1.3);
+margin-bottom: 30px;
+}
+
+.morenike2 {
+  height: 411px;
+  width:417px;
+  border: 2px solid white;
+  background: url(morenike1.webp);
+  background-repeat: no-repeat;
+}
+.morenike3 {
+  height: 411px;
+  width:417px;
+  border: 2px solid white;
+  background: url(morenike2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.morenike5 {
+  height: 411px;
+  width:417px;
+  border: 2px solid white;
+  background: url(morenike3.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.morenike {
+  padding-left: 3%; 
+}
+.morenike4 {
+  display: inline-flex;
+}
+
+.morenike #moreniketext{
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.morenike2 #button{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 79%;
+    margin-left: 11%;
+  }
+
+.morenike2 #button:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+.morenike5 #button{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 79%;
+    margin-left: 11%;
+  }
+
+.morenike5 #button:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+
+
+.morenike3 #button{
+  position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 79%;
+    margin-left: 11%;
+  }
+
+.morenike3 #button:hover {
+    
+  background-color: rgb(187, 187, 187);
+
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e9e3e3;
+    border-radius: 30px;
+
+} 
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+
+} 
+
+.mainlist {
+  margin: 5%;
+  display:inline-flex ;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+
+}
+
+
+.list1 #h4{
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+
+
+.list1 #li1{
+  padding-left: 150px;
+  padding-bottom: 5px;
+  color: #757575;
+}
+.list1 #li1:hover{
+  color: #111;
+  cursor: pointer;
+}
+
+div.firstfooter ul {
+  list-style-type: none;
+ 
+}
+.firstfooter li{
+  color: #FFFFFF;
+}
+.footer {
+  padding: 40px 0px 0;
+  display:inline-flex ;
+
+}
+.mainfooter{
+  background-color:rgb(0, 0, 0);
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+}
+.firstfooter #li1{
+  font-size: 14px;
+  margin: 0 0 14px;
+  font-family: "Helvetica Dark",Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-stretch: ultra-condensed;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+.firstfooter #li2{
+  font-size: 12px;
+  color: #7e7e7e;
+  margin: 0 0 14px ;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-stretch: ultra-condensed;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+.firstfooter #li2:hover{
+  color: #FFFFFF;
+}
+.social {
+    margin-left: 400px;
+    margin-bottom: 120px;
+}
+.social ul{
+  display: inline-flex;
+
+}
+.social #sociallogo{
+  background-color: #7e7e7e;
+  border: 4px solid #7e7e7e;
+  border-radius: 50px;
+}
+.social #sociallogo:hover{
+  background-color: #FFFFFF;
+  border: 4px solid #FFFFFF;
+  cursor: pointer;
+}
+.sociallogos {
+  padding-right: 15px;
+}
+.subfooter {
+  background-color:rgb(0, 0, 0);
+   display: inline-flex;
+   padding: 20px 40px 0;
+      overflow: hidden;
+}
+.subfooter #li1{
+  padding-right: 20px;
+  color: white;
+  font-size: 12px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.subfooter #li2{
+  padding-right: 20px;
+  color: #7e7e7e;
+  font-size: 12px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.subfooter #sociallogo{
+  padding-top:7px;
+  filter: brightness(0) invert(1);
+  width: 18px;
+  height: 15px;
+  cursor: pointer;
+
+}
+
+.mainfooter #footerul{
+  margin-left: 400px;
+  list-style-type: none;
+    overflow: hidden;
+}
+
+.mainfooter #lif{
+  margin-left: 20px;
+  color: #7e7e7e;
+  font-size: 12px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.mainfooter #lif:hover{
+  color: white;
+cursor: pointer;
+}
